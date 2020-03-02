@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="tribute.css" media="all"/>
+    <title>Survey-Form</title>
+  </head>
+   <body>
+    <h1 id="title">More than a Survey Form: It's a $tatement !! Who's the best Hip Hop Crew of All-time ?</h1>
+    <p id="description">Les crews de rappeurs ont toujours été un peu plus que de simples groupes. En leur sein, leurs membres prêtent allégeance à des couleurs et s’unissent comme des frères de sang, à la manière des gangs américains. En partageant ainsi leurs talents et leurs personnalités, les membres des crews se forgent un son, une philosophie, une identité et une vision du rap qui leur sont propres et qu’ils défendent ensemble. L’union fait la force, c’est ce qu’ont compris les rappeurs et les producteurs de la sélection qui suit. Et ils ont tous très certainement pu marquer la musique d’une empreinte bien plus profonde que s’ils avaient officié en solo.</p>
+    <div id="img-div">
+    <img id="image" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a38b7889992555.5e092d65d86b2.jpg" alt="Artist Link"/>
+    <figcaption id="caption">Hip Hop Painting By @HaleyEder.</figcaption>
+    </div>
+    <div>
+     <form id="survey-form">
+      <p id="choice">Selectionne ton Crew:</p>
+     <div>
+      <input type="radio" id="radio" name="crew" value="Wu-tang"checked>
+       <label for="Wu-tang">1- Wu-tang Clan</label>
+     </div>
+     <div>
+      <input type="radio" id="radio" name="crew" value="Dungeon Family">
+       <label for="Dungeon Family">2- Dungeon Family</label>
+     </div>
+     <div>
+      <input type="radio" id="radio" name="crew" value="The Diplomats">
+       <label for="The Diplomats">3- The Diplomats</label>
+     </div>
+     <div>
+      <input type="radio" id="radio" name="crew" value="4- Infamous Mobb Deep">
+       <label for="infamous Mobb Deep">4- Infamous Mobb Deep</label>
+     </div>
+     <div>
+      <input type="radio" id="radio" name="crew" value="Young Money">
+       <label for="Young Money">5- Young Money</label>
+     </div>
+     <p id="quality">Et son backpack de Skills:</p>
+     <div>
+      <input id="checkbox" type="checkbox" name="crew" value="Gangsta"checked>
+       <label for="Gangsta">- Gangsta</label>
+     </div>
+      <div>
+       <input id="checkbox" type="checkbox" name="crew" value="H-Town Crew">
+        <label for="LIB">- Lyricalement "Insane in the brain"!</label>
+      </div>
+      <div>
+       <input id="checkbox" type="checkbox" name="crew" value="Stones Throw">
+        <label for="Pur style et innovateur">- Pur style et innovateur.</label>
+      </div>
+      <div>
+       <input id="checkbox" type="checkbox" name="crew" value="Top Dawg Entertainment">
+        <label for="bdjm">- Beaucoups de jolies pussy autour d'eux ;).</label>
+      </div>
+      <div>
+       <input id="checkbox" type="checkbox" name="crew" value="Beat Junkies">
+        <label for="kicker">- Gros Kicker en Timb Boots.</label>
+      </div>
+      <div id="form">
+       <label id="number-label">
+        <input id="number" type="number" value="0" min="1" max="5" placeholder="Pick a crew !"required>
+         <label for="dropdown">
+          <select id="dropdown">
+           <option value="">Please choose your favorite Rapper !</option>
+           <option value="wu-tang">Ghostface Killah</option>
+           <option value="dungeonFamily">Scarface</option>
+           <option value="thediplomats">Cam'ron</option>
+           <option value="a$apmob">Prodigy</option>
+           <option value="youngmoney">Lil Wayne</option>
+           <option value="snoopdogg">Snoop Dogg</option>
+           <option value="pimp-c">Pimp C</option>
+           <option value="jay-z">Jay-Z</option>
+           <option value="pushat">Pusha-t</option>
+           <option value="drake">Drake</option>
+          </label>
+         </select>
+        </div>
+        <h2>Veuillez indiquer votre nom ainsi que votre adresse e-mail ci-dessous pour recevoir les résultats:</h2>
+         <label id="name-label"> 
+           <input id="name" placeholder="Name"required>
+         </label>
+         <label  id="email-label">
+          <input type="email" id="email" placeholder="E-mail"required>
+         </label>
+         <label>
+          <button type="submit" id="submit">Submit</button>
+         </label>
+         <label for="story">Raconte nous comment tu as découvert ton Crew préféré:</label>
+         <textarea id="story" name="story" rows="1" cols="80">En cette belle journée de Juin 98, je roulais un avion de type Boeing 747 ...
+         </textarea>
+        </form>
+       </div>
+      </body>

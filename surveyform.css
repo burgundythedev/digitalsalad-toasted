@@ -1,0 +1,68 @@
+body {
+    background-color: #EBEBE3;
+    text-align: center;
+   }
+   #title {
+     font-size: 50px;
+     font-family: lacquer;
+     text-decoration: overline #FF3028;
+     
+   }
+   #description {
+     font-size: 17px;
+     font-family: josefin sans;
+   }
+   #image {
+     border-radius: 250px;
+     max-width: 100%; 
+     height: 200px;
+     width: 200px;
+     box-shadow: 0px 0px 10px;
+   }
+   #caption {
+     font-size: 10px;
+     font-family: josefin sans;
+     font-style: italic
+   }
+   h2 {
+     font-size: 18px;
+     color: #000000;
+     font-family: pacifico;
+     text-decoration: overline solid #0F9D58;
+     
+   }
+   #survey-form {
+     font-family: josefin sans;
+   }
+   #choice {
+     font-family: josefin sans;
+     text-decoration: underline;
+   }
+   #quality {
+     font-family: josefin sans;
+     text-decoration: underline;  
+   }
+   #number {
+     font-family : josefin sans;
+   }
+   #dropdown {
+     font-family : josefin sans;
+   }
+   #name {
+     font-family : josefin sans;
+   }
+   #email {
+     font-family : josefin sans;
+   }
+   #submit {
+     background-color: #0F9D58;
+     border-radius: 50px;
+     font-family: pacifico;
+   }
+   #story {
+     font-family : josefin sans;
+     line-height: 1.5;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+     box-shadow: 1px 1px 5px;
+   }
